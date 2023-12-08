@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Burger</title>
+    <link rel="stylesheet" href="./css/order.css">
+</head>
+<body>
+    <form action="survey.php" method="post">
+    <div class="all">
+    <div>
+        <header>
+             <img src="./img/buger.jpg" alt="header">
+        </header>
+    </div>
+    <hr >
+    <div>
+        <h1>Create a Burger</h1>
+    <label for="protein">What type of protein do you like? </label>
+    <input type="text" name="loai_protein" id="protein">
+    </div>
+    <hr class="one">
+    <div>
+        <label for="patties">How many patties would you like? </label>
+        <input type="number" name="banh_ngot" id="patties">
+        
+    </div>
+    <hr class="one">
+
+    <div>
+        <label for="cooked">How do you want your patties cooked? </label>
+    <br>
+    Race<input type="range" name="range_do_chin" id="cooked" min="Race" max="Well-Done">Well-Done
+    </div>
+    <hr class="one">
+
+    <div>
+        <label for="toppings">What toppings do you like? </label>
+    <br>
+        <input type="checkbox" name="toppings[]" id="lettuce" value="Lettuce">Lettuce
+        <input type="checkbox" name="toppings[]" id="tomato" value="Tomato">Tomato
+        <input type="checkbox" name="toppings[]" id="onion" value="Onion">Onion
+    </div>
+    <hr class="one">
+    <div>
+        <label for="add">Would you like to add cheese? </label>
+    <br>
+    <input type="radio" name="add_cheese" id="add-yes" name="cheese" value="Yes">Yes
+    <input type="radio" name="add_cheese" id="add-no" name="cheese" value="No">No
+    </div>
+    <hr class="one">
+
+    <div>
+    <label for="bun">What type of bun do you like? </label>
+        <select name="banh_bao" id="bun">
+            <option value="Seasame">Seasame</option>
+            <option value="Seasame1">Seasame1</option>
+            <option value="Seasame2">Seasame2</option>
+        </select>
+    </div>
+    <hr class="one">
+
+    <div>
+        <label for="sauce">What type of sauce do you like? </label>
+        <input type="text" id="sauce" name="nuoc_sot">
+    </div>
+    <hr class="one">
+    <div>
+        <label for="anything_else">Anything else you want to add</label>
+        <br>
+    <textarea name="ghi_chu" id="anything_else" cols="30" rows="4"></textarea>
+    </div>
+    <hr>
+        <button type="submit" id="btn_submit">Đặt hàng</button>
+    </div>
+    <a class="lo" href="./logout.php">Logout</a>
+</form>
+    
+</body>
+</html>
