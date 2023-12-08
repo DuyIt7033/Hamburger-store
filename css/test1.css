@@ -1,0 +1,92 @@
+/* CSS for registration page with modern theme */
+
+ body {
+    font-family: sans-serif;
+    background-color: #4A675A;
+} 
+
+#login-card {
+    background-color: white;
+    width: 350px;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.card-body {
+    text-align: left;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 320px;
+}
+.form-group-1 {
+    padding-top: 5px;
+    margin-left: 15px;
+    width: 320px;
+}
+label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn-block {
+    width: 100px;
+    height: 40px;
+    background-color: #3A4A61;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+/* Add some modern touches */
+
+#login-card {
+    transition: all 0.2s ease-in-out;
+}
+
+#login-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.btn-block:hover {
+    background-color: #4A675A;
+}
+
+a {
+    color: #3A4A61;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3A4A61;
+}
+
+
+
+
+
+  
+  
+  
